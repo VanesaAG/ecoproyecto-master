@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-
 }
   /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
@@ -53,8 +52,8 @@
       width: auto; /* El ancho se ajusta al contenedor */
       margin-bottom: 10px; /* Espacio entre las opiniones */
     }
- }
 
+}
   
   
 
@@ -81,7 +80,10 @@
     .opinion {
       width: auto; /* El ancho se ajusta al grid */
     }
- }
+
+   
+}
+
     
 
 
@@ -119,7 +121,7 @@ h4 {
     text-align: center;
     color: darkgreen;
     font-style: initial;
-    font-size: 35px;
+    font-size: 35mx;
 
 }
 
@@ -129,8 +131,7 @@ p {
     font-size: 18px;
     margin-left: 2cm;
     margin-right: 2cm;
-    text-align: justify;
-}
+ }
 
 li {
     text-align: left;
@@ -200,9 +201,9 @@ font-size: xx-large;
 }
 
 .img {
+    text-align: center;
     max-width: 100%;
-    display: flex;
-    size: 400px
+    size: 400px;
 }
 
 ul {
@@ -310,19 +311,28 @@ ul {
   
 
 
-.image-grid {
+/*.image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    /*padding: 20px;*/
+    -- padding: 20px;--
     padding: auto;
     background-color: white;
-}
+}*/
+
+.image-grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    }
+
   
   
   
 .image img {
-    max-width: 100%;
     display: block;
     max-width: auto;
     /*width: 100%;
@@ -333,13 +343,10 @@ ul {
 .h4grid h4{
     color: rgb(69, 218, 81);
     display: block;
-    max-width: auto;
     text-align: center;
     font-size: 68px;
     font-family: fantasy;
     text-shadow: 5px 5px #23640f;
-
-    
 }
 
   
@@ -381,10 +388,8 @@ ul {
 
 .contenedor-imagen {
     text-align: center;
-    margin: 10px;
+    margin: auto;
     padding: 10px;
-   
-
 } 
 
 
